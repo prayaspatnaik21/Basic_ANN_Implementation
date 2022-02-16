@@ -1,6 +1,10 @@
 import tensorflow as tf
 import time
 import os
+import logging
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
 
 def create_model(LOSS_FUNCTION, OPTIMIZER, METRICS, NUM_CLASSES):
 

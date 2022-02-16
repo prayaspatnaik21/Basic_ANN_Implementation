@@ -131,3 +131,7 @@ dmypy.json
 
 .vscode/
 .idea/ 
+
+# Artifacts
+artifact/
+logs_dir/
